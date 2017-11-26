@@ -34,7 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 gem 'bulma-rails','~> 0.6.1'
+gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'pry-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
