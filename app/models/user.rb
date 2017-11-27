@@ -18,7 +18,6 @@ class User < ApplicationRecord
             password: Devise.friendly_token[0,20]
          )
     end
-    binding.pry
     
     user
   end

@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Todos</h1>
+<h1 class='title'>Todos</h1>
 
-<table>
+<table class='table is-striped is-hoverable is-fullwidth'>
   <thead>
     <tr>
       <th>Description</th>
@@ -24,4 +24,4 @@
 
 <br>
 
-<%= link_to 'New Todo', new_todo_path %>
+<%= link_to 'New Todo', new_todo_path, class: 'button is-primary' %>
