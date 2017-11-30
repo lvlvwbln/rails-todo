@@ -32,7 +32,6 @@ require "capistrano/chruby"
 require "capistrano/bundler"
 require "capistrano/rails/assets"
 require "capistrano/rails/migrations"
-require "capistrano/cookbook"
 # require "capistrano/passenger"
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined

@@ -57,7 +57,6 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   gem 'capistrano-chruby'
-  gem 'capistrano-cookbook'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

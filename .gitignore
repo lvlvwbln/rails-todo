@@ -16,6 +16,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/shared/*
 !/log/.keep
 !/tmp/.keep
 
